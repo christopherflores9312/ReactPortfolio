@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './Resume.module.css';
 // import resume from './path_to_your_resume'; // replace with the path to your resume
 
 function Resume() {
@@ -8,11 +9,11 @@ function Resume() {
   ];
 
   return (
-    <section>
-      <h2>Resume</h2>
-      {/* <a href={resume} download>Download my Resume</a> */}
-      <h3>Proficiencies</h3>
-      <ul>
+    <section className={styles.resume}>
+      <h2 className={styles.title}>Resume</h2>
+      {/* <a href={resume} download className={styles.link}>Download my Resume</a> */}
+      <h3 className={styles.title}>Proficiencies</h3>
+      <ul className={styles.proficiencies}>
         {proficiencies.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
       </ul>
     </section>
