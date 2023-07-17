@@ -1,0 +1,24 @@
+.container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2em;
+    color: #31343d;
+  }
+  
+  .image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+  }
+  
+  .text {
+    font-size: 1em;
+    color: #31343d;
+    margin-top: 20px;
+  }
+  
