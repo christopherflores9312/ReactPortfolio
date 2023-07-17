@@ -18,10 +18,22 @@ const StyledTypography = styled(Typography)(({ theme }) => ({
 // Add your project data here
 const projects = [
   {
-    title: "Project 1",
-    image: "/path/to/project1/image",
-    deployedUrl: "https://project1.com",
-    githubUrl: "https://github.com/username/project1"
+    title: "Online Text Editor",
+    image: "https://github.com/christopherflores9312/PWA-Text-Editor/raw/main/screenshot.png",
+    deployedUrl: "https://pwa-text-editor-9312-b4b9cc7dd634.herokuapp.com/",
+    githubUrl: "https://github.com/christopherflores9312/PWA-Text-Editor"
+  },
+  {
+    title: "Online Note Taking App",
+    image: "https://github.com/christopherflores9312/NoteTaker/raw/main/public/assets/example.jpg",
+    deployedUrl: "https://notetaker9312.herokuapp.com/notes",
+    githubUrl: "https://github.com/christopherflores9312/NoteTaker"
+  },
+  {
+    title: "Online Weather Dashboard",
+    image: "https://github.com/christopherflores9312/weather-dashboard/raw/main/assets/img/preview.png",
+    deployedUrl: "https://christopherflores9312.github.io/weather-dashboard/",
+    githubUrl: "https://github.com/christopherflores9312/weather-dashboard"
   },
   // add more projects as needed
 ];
