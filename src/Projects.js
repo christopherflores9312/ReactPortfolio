@@ -27,7 +27,7 @@ const projects = [
 function Projects({ title, image, deployedUrl, githubUrl }) {
   return (
     <Container maxWidth="md">
-      <Box
+      <Box mb={10}
         display="flex"
         flexDirection="column"
         justifyContent="center"

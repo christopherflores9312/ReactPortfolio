@@ -41,7 +41,7 @@ const projects = [
 function Home() {
   return (
     <Container maxWidth="md">
-      <Box
+      <Box mb={10}
         display="flex"
         flexDirection="column"
         justifyContent="center"
