@@ -49,14 +49,17 @@ function Home() {
         minHeight="80vh"
       >
         {/* <StyledAvatar src={avatar} alt="Your Name" /> */}
+        <StyledAvatar alt="Christopher Flores" />
+
         <Typography variant="h3" component="h1">
           About Me
         </Typography>
         <StyledTypography variant="body1">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla, nibh id bibendum rutrum, nulla augue vestibulum nulla, eget bibendum erat sapien ac libero. Sed eget turpis nec ipsum mollis pellentesque. Integer vel turpis at sapien facilisis ultricies.
-        </StyledTypography>
+          With a background in IT at a leading telecommunications company, I am a passionate web developer keen on leveraging my experience to build innovative web solutions. I have a proven record of managing complex IT tasks and improving operational efficiency. I'm currently looking to apply my skills and dedication in a full-time web developer role. I am constantly exploring the latest technologies to stay updated and deliver the best solutions to real-world problems.        </StyledTypography>
 
-        {/* Add the following block to render your Project components */}
+        <Typography variant="h3" component="h1">
+          Projects
+        </Typography>
         {projects.map((project, index) => (
           <Project key={index} {...project} />
         ))}

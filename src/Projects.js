@@ -1,14 +1,44 @@
 import React from 'react';
-import styles from './Project.module.css';
+import Project from './Project';
+import { Container, Box } from '@mui/material';
+
+const projects = [
+  {
+    title: "Online Text Editor",
+    image: "https://github.com/christopherflores9312/PWA-Text-Editor/raw/main/screenshot.png",
+    deployedUrl: "https://pwa-text-editor-9312-b4b9cc7dd634.herokuapp.com/",
+    githubUrl: "https://github.com/christopherflores9312/PWA-Text-Editor"
+  },
+  {
+    title: "Online Note Taking App",
+    image: "https://github.com/christopherflores9312/NoteTaker/raw/main/public/assets/example.jpg",
+    deployedUrl: "https://notetaker9312.herokuapp.com/notes",
+    githubUrl: "https://github.com/christopherflores9312/NoteTaker"
+  },
+  {
+    title: "Online Weather Dashboard",
+    image: "https://github.com/christopherflores9312/weather-dashboard/raw/main/assets/img/preview.png",
+    deployedUrl: "https://christopherflores9312.github.io/weather-dashboard/",
+    githubUrl: "https://github.com/christopherflores9312/weather-dashboard"
+  },
+  // add more projects as needed
+];
 
 function Projects({ title, image, deployedUrl, githubUrl }) {
   return (
-    <div className={styles.project}>
-      <h3 className={styles.title}>{title}</h3>
-      <img src={image} alt={title} className={styles.image} />
-      <a href={deployedUrl} className={styles.link}>Deployed Application</a>
-      <a href={githubUrl} className={styles.link}>GitHub Repository</a>
-    </div>
+    <Container maxWidth="md">
+      <Box
+        display="flex"
+        flexDirection="column"
+        justifyContent="center"
+        alignItems="center"
+        minHeight="80vh"
+      >
+        {projects.map((project, index) => (
+          <Project key={index} {...project} />
+        ))}
+      </Box>
+    </Container>
   );
 }
 
