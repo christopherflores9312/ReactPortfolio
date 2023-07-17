@@ -8,9 +8,22 @@ import About from './About';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Resume from './Resume';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#92ccce',
+    },
+    text: {
+      primary: '#31343d',
+    },
+  },
+});
 
 function App() {
   return (
+    <ThemeProvider theme={theme}>
     <Router>
       <Header>
         <Navigation />
@@ -24,6 +37,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
+    </ThemeProvider>
   );
 }
 
