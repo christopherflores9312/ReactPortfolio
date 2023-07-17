@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from './Project';
+import styles from './Portfolio.module.css';
 
 function Portfolio() {
   const projects = [
@@ -10,9 +11,11 @@ function Portfolio() {
   ];
 
   return (
-    <section>
-      <h2>Portfolio</h2>
-      {projects.map(project => <Project key={project.title} {...project} />)}
+    <section className={styles.section}>
+      <h2 className={styles.title}>Portfolio</h2>
+      <div className={styles.projectContainer}>
+        {projects.map(project => <Project key={project.title} {...project} className={styles.projectItem}/>)}
+      </div>
     </section>
   );
 }
