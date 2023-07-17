@@ -1,0 +1,27 @@
+.project {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    color: #31343d;
+    margin-bottom: 20px;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .link {
+    display: block;
+    margin-top: 10px;
+    color: #31343d;
+    text-decoration: none;
+  }
+  

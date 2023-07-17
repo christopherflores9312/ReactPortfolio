@@ -1,12 +1,13 @@
 import React from 'react';
+import styles from './Project.module.css';
 
 function Project({ title, image, deployedUrl, githubUrl }) {
   return (
-    <div>
-      <h3>{title}</h3>
-      <img src={image} alt={title} />
-      <a href={deployedUrl}>Deployed Application</a>
-      <a href={githubUrl}>GitHub Repository</a>
+    <div className={styles.project}>
+      <h3 className={styles.title}>{title}</h3>
+      <img src={image} alt={title} className={styles.image} />
+      <a href={deployedUrl} className={styles.link}>Deployed Application</a>
+      <a href={githubUrl} className={styles.link}>GitHub Repository</a>
     </div>
   );
 }
