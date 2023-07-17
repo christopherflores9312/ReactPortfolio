@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #31343d;
+    padding: 20px;
+  }
+  
+  .navLink {
+    color: #92ccce;
+    text-decoration: underline;
+    margin-left: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .activeLink {
+    color: #fff;
+    background-color: #92ccce;
+  }
+  
+  /* Use media queries to adjust navigation layout and styling for smaller screens */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .navLink {
+      display: block;
+      margin: 10px 0;
+      text-align: center;
+    }
+  }
+  
