@@ -29,7 +29,7 @@ As an employer looking for candidates with experience building single-page appli
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repository.git`
+1. Clone the repository: `git clone https://github.com/christopherflores9312/ReactPortfolio`
 2. Install dependencies: `npm install`
 
 ## Usage
