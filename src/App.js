@@ -25,12 +25,12 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-    <Router basename='/ReactPortfolio'>
+    <Router >
       <Header>
         <Navigation />
       </Header>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/ReactPortfolio" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/projects" element={<Projects />} />
