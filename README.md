@@ -39,6 +39,10 @@ As an employer looking for candidates with experience building single-page appli
 3. Explore the different sections of the portfolio by clicking on the navigation titles.
 4. Assess the developer's work samples, read their bio, and submit a message through the contact form.
 
+## Example
+
+1. [CLICK HERE! https://christopherflores9312.github.io/ReactPortfolio](https://christopherflores9312.github.io/ReactPortfolio)
+
 ## Contributing
 
 Contributions are welcome! Please follow these steps:
