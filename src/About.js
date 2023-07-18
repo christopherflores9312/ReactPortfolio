@@ -1,7 +1,7 @@
 import React from 'react';
 import { Avatar, Typography, Box } from '@mui/material';
 import { styled } from '@mui/system';
-// import avatar from './path_to_your_image'; // replace with the path to your image
+import avatar from './avatar.png'; // replace with the path to your image
 
 const StyledAvatar = styled(Avatar)({
   width: '150px',
@@ -18,7 +18,7 @@ function About() {
       justifyContent="center"
       padding="2em"
     >
-      <StyledAvatar  alt="Christopher Flores" />
+      <StyledAvatar src={avatar} alt="Christopher Flores" />
       <Typography variant="h3" component="h1">
         Christopher Flores
       </Typography>

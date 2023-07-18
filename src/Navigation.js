@@ -33,6 +33,7 @@ const Navigation = () => {
         <Tab label="About" component={StyledLink} to="/about" />
         <Tab label="Projects" component={StyledLink} to="/projects" />
         <Tab label="Contact" component={StyledLink} to="/contact" />
+        <Tab label="Resume" component={StyledLink} to="/resume" />
       </Tabs>
     </AppBar>
   );

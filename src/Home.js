@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography, Container, Avatar, Box } from '@mui/material';
 import { styled } from '@mui/system';
-// import avatar from './path_to_your_photo.jpg'; // update with your image path
+import avatar from './avatar.png'; // update with your image path
 import Project from './Project';
 
 const StyledAvatar = styled(Avatar)({
@@ -48,8 +48,8 @@ function Home() {
         alignItems="center"
         minHeight="80vh"
       >
-        {/* <StyledAvatar src={avatar} alt="Your Name" /> */}
-        <StyledAvatar alt="Christopher Flores" />
+        <StyledAvatar src={avatar} alt="Christopher Flores" />
+        {/* <StyledAvatar alt="Christopher Flores" /> */}
 
         <Typography variant="h3" component="h1">
           About Me

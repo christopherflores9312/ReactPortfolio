@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Resume.module.css';
-// import resume from './path_to_your_resume'; // replace with the path to your resume
+import resume from './Resume.pdf'; // replace with the path to your resume
 
 function Resume() {
   const proficiencies = [
@@ -11,7 +11,7 @@ function Resume() {
   return (
     <section className={styles.resume}>
       <h2 className={styles.title}>Resume</h2>
-      {/* <a href={resume} download className={styles.link}>Download my Resume</a> */}
+      <a href={resume} download className={styles.link}>Download my Resume</a>
       <h3 className={styles.title}>Proficiencies</h3>
       <ul className={styles.proficiencies}>
         {proficiencies.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
