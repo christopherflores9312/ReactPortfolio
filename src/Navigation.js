@@ -29,7 +29,7 @@ const Navigation = () => {
   return (
     <AppBar position="static" sx={{ }}>
       <Tabs value={getTabValue(location)} centered>
-        <Tab label="Home" component={StyledLink} to="/" />
+        <Tab label="Home" component={StyledLink} to="/ReactPortfolio" />
         <Tab label="About" component={StyledLink} to="/about" />
         <Tab label="Projects" component={StyledLink} to="/projects" />
         <Tab label="Contact" component={StyledLink} to="/contact" />
