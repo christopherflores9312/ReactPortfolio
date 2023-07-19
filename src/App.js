@@ -11,7 +11,7 @@ import Contact from './Contact';
 import Resume from './Resume';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './theme';
-import styles from './css/App.css';
+import './css/App.css';
 
 function App() {
   return (
