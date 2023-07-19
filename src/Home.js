@@ -47,6 +47,12 @@ function Home() {
         justifyContent="center"
         alignItems="center"
         minHeight="80vh"
+        sx={{
+          backgroundColor: 'background.paper',
+          color: 'text.primary',
+          padding: '40px',
+          borderRadius: '8px',
+        }}
       >
         <StyledAvatar src={avatar} alt="Christopher Flores" />
         {/* <StyledAvatar alt="Christopher Flores" /> */}

@@ -1,3 +1,7 @@
+.MuiContainer-root {
+  background-color: #222;
+}
+
 .container {
   display: flex;
   flex-direction: column;

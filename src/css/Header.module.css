@@ -1,25 +1,28 @@
+.MuiContainer-root {
+  background-color: #222;
+}
+
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #31343d;
-    padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #31343d;
+  padding: 20px;
+}
+
+.header h1 {
+  color: #92ccce;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
   }
-  
+
   .header h1 {
-    color: #92ccce;
-    margin: 0;
+    text-align: center;
+    font-size: 3vw;
   }
-  
-  @media (max-width: 768px) {
-    .header {
-      flex-direction: column;
-      justify-content: center;
-    }
-    
-    .header h1 {
-      text-align: center;
-      font-size: 3vw;
-    }
-  }
-  
+}

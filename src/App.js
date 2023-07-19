@@ -9,18 +9,9 @@ import Portfolio from './Portfolio';
 import Projects from './Projects';
 import Contact from './Contact';
 import Resume from './Resume';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
-
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: '#92ccce',
-    },
-    text: {
-      primary: '#31343d',
-    },
-  },
-});
+import { ThemeProvider } from '@mui/material/styles';
+import theme from './theme';
+import styles from './css/App.css';
 
 function App() {
   return (

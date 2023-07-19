@@ -1,26 +1,29 @@
+.MuiContainer-root {
+  background-color: #ec1212;
+}
+
 .about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-  }
-  
-  .about img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  
-  .about h2 {
-    color: #31343d;
-    margin-top: 20px;
-  }
-  
-  .about p {
-    color: #31343d;
-    text-align: center;
-    margin-top: 10px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.about img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.about h2 {
+  color: #31343d;
+  margin-top: 20px;
+}
+
+.about p {
+  color: #31343d;
+  text-align: center;
+  margin-top: 10px;
+}
