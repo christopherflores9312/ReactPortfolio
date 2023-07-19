@@ -19,9 +19,7 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: 'Arial, sans-serif',
-    // Add your typography styles here
   },
-  // Add more customizations to your theme here
 });
 
 export default theme;
