@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Project.module.css';
+import styles from './css/Project.module.css';
 
 function Project({ title, image, deployedUrl, githubUrl }) {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Resume.module.css';
+import styles from './css/Resume.module.css';
 import resume from './Resume.pdf'; // replace with the path to your resume
 
 function Resume() {
