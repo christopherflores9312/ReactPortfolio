@@ -43,6 +43,8 @@ As an employer looking for candidates with experience building single-page appli
 
 1. [CLICK HERE! https://christopherflores9312.github.io/ReactPortfolio](https://christopherflores9312.github.io/ReactPortfolio)
 
+    [![screenshot](./screenshot.png)](https://christopherflores9312.github.io/ReactPortfolio)
+
 ## Contributing
 
 Contributions are welcome! Please follow these steps:
