@@ -15,8 +15,9 @@ function About() {
       display="flex"
       flexDirection="column"
       alignItems="center"
-      justifyContent="center"
+      justifyContent="top"
       padding="2em"
+      height={{ xs: '100%', md: 'calc(100vh - 2rem)' }}
     >
       <StyledAvatar src={avatar} alt="Christopher Flores" />
       <Typography variant="h3" component="h1">
