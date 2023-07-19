@@ -9,6 +9,12 @@ const StyledAvatar = styled(Avatar)({
   margin: '0 auto',
 });
 
+const StyledTypography = styled(Typography)(({ theme }) => ({
+  color: theme.palette.text.primary,
+  marginTop: theme.spacing(2),
+  fontWeight: 'bold', // Add bold font weight
+}));
+
 function About() {
   return (
     <Box
@@ -23,11 +29,21 @@ function About() {
       <Typography variant="h3" component="h1">
         Christopher Flores
       </Typography>
-      <Typography variant="body1" align="center">
-        With a background in IT at a leading telecommunications company, I am a passionate web developer keen on leveraging my experience to build innovative web solutions. 
-        I have a proven record of managing complex IT tasks and improving operational efficiency. 
-        I'm currently looking to apply my skills and dedication in a full-time web developer role. I am constantly exploring the latest technologies to stay updated and deliver the best solutions to real-world problems.
-      </Typography>
+      <Box
+        mb={2}
+        sx={{
+          backgroundColor: 'background.paper',
+          color: 'text.primary',
+          padding: '40px',
+          borderRadius: '8px',
+        }}
+      >
+        <StyledTypography variant="body1" align="center">
+          With a background in IT at a leading telecommunications company, I am a passionate web developer keen on leveraging my experience to build innovative web solutions.
+          I have a proven record of managing complex IT tasks and improving operational efficiency.
+          I'm currently looking to apply my skills and dedication in a full-time web developer role. I am constantly exploring the latest technologies to stay updated and deliver the best solutions to real-world problems.
+        </StyledTypography>
+      </Box>
     </Box>
   );
 }
