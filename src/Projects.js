@@ -5,7 +5,7 @@ import { Container, Box } from '@mui/material';
 const projects = [
   {
     title: "Video Lingo",
-    image: "./videolingoscreenshot.png",
+    image: "https://github.com/christopherflores9312/VideoLingo/raw/main/VideoLingoProcess.png",
     deployedUrl: "https://videolingo-4a86a4dabd29.herokuapp.com/",
     githubUrl: "https://github.com/christopherflores9312/VideoLingo"
   },
