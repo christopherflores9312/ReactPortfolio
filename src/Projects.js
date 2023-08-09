@@ -4,16 +4,16 @@ import { Container, Box } from '@mui/material';
 
 const projects = [
   {
+    title: "Video Lingo",
+    image: "./videolingoscreenshot.png",
+    deployedUrl: "https://videolingo-4a86a4dabd29.herokuapp.com/",
+    githubUrl: "https://github.com/christopherflores9312/VideoLingo"
+  },
+  {
     title: "Online Text Editor",
     image: "https://github.com/christopherflores9312/PWA-Text-Editor/raw/main/screenshot.png",
     deployedUrl: "https://pwa-text-editor-9312-b4b9cc7dd634.herokuapp.com/",
     githubUrl: "https://github.com/christopherflores9312/PWA-Text-Editor"
-  },
-  {
-    title: "Online Note Taking App",
-    image: "https://github.com/christopherflores9312/NoteTaker/raw/main/public/assets/example.jpg",
-    deployedUrl: "https://notetaker9312.herokuapp.com/notes",
-    githubUrl: "https://github.com/christopherflores9312/NoteTaker"
   },
   {
     title: "Online Weather Dashboard",
