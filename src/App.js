@@ -16,12 +16,12 @@ import './css/App.css';
 function App() {
   return (
     <ThemeProvider theme={theme}>
-    <Router >
+    <Router basename="/ReactPortfolio">
       <Header>
         <Navigation />
       </Header>
       <Routes>
-        <Route path="/ReactPortfolio" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/projects" element={<Projects />} />
